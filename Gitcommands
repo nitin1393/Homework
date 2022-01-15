@@ -1,1 +1,5 @@
-
+git clone <repository url>
+git add  <file name> --> to add a single file
+git add . --> to add multiple files
+git commit -m "message"--> saving file with a message
+git push --> pushing file to remote repository
