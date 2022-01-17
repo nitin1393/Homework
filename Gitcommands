@@ -4,7 +4,7 @@ git add . --> to add multiple files
 git commit -m "message"--> saving file with a message
 git push --> pushing file to remote repository
 
-##jenkins installation process
+##jenkins installation proces
 sudo su - --> To switch into root user
 yum install java-1.8.0-openjdk --> To install jdk 1.8 
 
