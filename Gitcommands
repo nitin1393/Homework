@@ -3,5 +3,33 @@ git add  <file name> --> to add a single file
 git add . --> to add multiple files
 git commit -m "message"--> saving file with a message
 git push --> pushing file to remote repository
+
+##jenkins installation proces
+sudo su - --> To switch into root user
+yum install java-1.8.0-openjdk --> To install jdk 1.8 
+
+
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo -->  to get jenkins repository to system path
+
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key --> add the repository key
+
+sudo yum upgrade -- to upgrade all the applications
+
+sudo amazon-linux-extras install epel - to install extras for amazon linux machine 
+
+sudo yum install jenkins
+
+sudo systemctl daemon-reload 
+
+#after installing jenkins 
+systemctl restart jenkins
+
+systemctl status jenkins
+
+#open the port 8080 by editing inbound rules in security group
+
+run this   "public ipaddress:8080" in the  browser  
+
 git stash -->To erase the previous modified data
 git config-->
