@@ -31,3 +31,5 @@ systemctl status jenkins
 
 run this   "public ipaddress:8080" in the  browser  
 
+git stash -->To erase the previous modified data
+git config-->
